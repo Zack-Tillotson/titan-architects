@@ -1,0 +1,43 @@
+html
+  background: #efefef;
+  font-family: "Open Sans", sans-serif
+
+a
+  text-decoration: none;
+  color: #555;
+
+  &:hover
+    text-decoration: underline;
+
+nav
+  background: #fff;
+  padding: 25px 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  .title-img, .title-text
+    margin: 0 25px;
+
+  .title-text
+    font-size: 30px;
+
+  img
+    height: 100px;
+
+  .nav-links
+    font-size: 25px;
+    flex: 1;
+    text-align: right;
+
+    li
+      display: inline-block;
+      margin-right: 35px;
+
+.fixed-pic
+  height: calc(100vh - 152px - 50px);
+  background: #ccc;
+  background-size: cover;
+
+  &--bar
+    background-image: url('/assets/img/bar_interior.jpg');
